@@ -118,5 +118,5 @@ INSERT INTO payments (payment_id, order_id, method, status, amount) VALUES
 (2, 2, 'Cash', 'Completed', 3.25);
 /**************************************************************************************************/
 UPDATE products 
-set price =0.25 
+set price =0.30 
 where name='matrix cola';
