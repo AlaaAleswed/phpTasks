@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 40px;
+}
+
+h2 {
+    color: #d2691e;
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    background-color: #e6b18c;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #d2691e;
+    padding: 12px;
+    border-bottom: 2px solid #f2d3b8;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #f2d3b8;
+    color: #d2691e;
+}
+
+tr:nth-child(even) {
+    background-color: #fff7f0;
+}
+
+.actions a {
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.view { color: #d2691e; }
+.edit { color: #d2691e; }
+.delete { color: #d2691e; }
+/***********************************************/
+.form-container {
+    width: 400px;
+    background-color: #fff7f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-container label {
+    color: #d2691e;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #f2d3b8;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #d2691e;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container p {
+    color: #d2691e;
+    margin: 10px 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #d2691e;
+    text-decoration: none;
+}
